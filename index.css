@@ -46,6 +46,7 @@ img {
 	position: absolute;
 	margin: auto;
 	cursor: pointer;
+	transition: 0.8s;
 }
 
 .cards {
