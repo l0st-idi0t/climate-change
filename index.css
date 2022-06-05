@@ -19,12 +19,17 @@ body, html {
 .climate {
 	border-radius: 10px;
 	display: flex;
-	width: 40%;
-	height: 100%;
+	width: 20%;
 	background-color: #DCDCDC;
-	justify-content: center;
-	align-items: center;
+/*	justify-content: center;
+	align-items: center;*/
 	transform-style: preserve-3d;
+}
+
+.climate:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
 }
 
 input[type=radio] {
