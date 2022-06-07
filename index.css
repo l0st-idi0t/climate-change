@@ -88,9 +88,9 @@ img {
 	justify-content: center;
 	align-items: center;
 	margin: auto;
-	margin-top: 3%;
+	margin-top: 25px;
 	cursor: pointer;
-
+	transition: 0.5s;
 }
 
 .climate-change:after {
@@ -101,4 +101,20 @@ img {
 
 .climate-change img {
 	width: 50%;
+	transition: 1s;
+}
+
+#reveal-1:checked + .climate-change{
+	transform: scaleX(8);
+	border-radius: 0px;
+	transition: transform 0.5s;
+}
+
+#reveal-1:checked + .climate-change img{
+	transform: scaleX(0.125);
+	transition: transform 0.25s;
+}
+
+input[type=checkbox] {
+	display: none;
 }
